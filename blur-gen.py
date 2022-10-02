@@ -3,7 +3,7 @@ import os
 import numpy
 from PIL import Image, ImageDraw, ImageFilter
 
-path = "test"
+path = "test" # or "train"
 if not os.path.exists(f"animals_raw/raw-img/{path}"):
     os.mkdir(f"animals_raw/raw-img/{path}")
 
