@@ -1,5 +1,5 @@
 # blur-gan
-**fixing blurry images with a GAN**
+**"fixing" blurry images with a GAN**
 
 results are decent-ish surprisingly.
 
