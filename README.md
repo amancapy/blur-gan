@@ -1,7 +1,7 @@
 # blur-gan
 **GAN ensemble to fix blurry images**
 
-what's fundamentally different here from the traditional implementation (you will notice that the code here derives largely from Tensorflow's official tutorial on GANs) is that instead of scaling L1 by a pre-set lambda, lambda is scaled gradually during training, which I have discovered results in a much lower tendency to collapse or to fail to converge.
+what's fundamentally different here from the traditional implementation (you will notice that the code here derives largely from Tensorflow's official tutorial on GANs) is that instead of scaling L1 by a pre-set lambda, lambda is scaled gradually during training, which I have found results in a much lower tendency to collapse or to fail to converge.
 
 timeline:
 
